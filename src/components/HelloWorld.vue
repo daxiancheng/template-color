@@ -39,13 +39,7 @@ export default {
   props: {
     msg: String
   },
-   mounted() {
-    this.init(); // 初始化主题
-  },
   methods:{
-     init() {
-      setTheme("default"); // 初始化未默认主题
-    },
     // 更改为默认主题
     defaultTheme() {
       setTheme("default");

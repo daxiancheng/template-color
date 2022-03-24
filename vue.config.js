@@ -1,6 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 const path = require("path");
-console.log('process.env', process.env)
 module.exports = defineConfig({
   transpileDependencies: true,
   pluginOptions: {
